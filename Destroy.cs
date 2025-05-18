@@ -7,7 +7,7 @@ public class Destroy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // Ïðè ñòàðòå óäàëÿåò îáúåêò, ê êîòîðîìó ïðèêðåïëåí ñêðèïò
+        // При старте удаляет объект, к которому прикреплен скрипт
         Destroy(gameObject);
     }
 
