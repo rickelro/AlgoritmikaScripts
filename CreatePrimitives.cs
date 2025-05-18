@@ -7,9 +7,9 @@ public class CreatePrimitives : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // оздает новый игровой объект (GameObject) в сцене с примитивом типа "Куб"
-        // .transform - получает доступ к компоненту Transform созданного куба
-        // .position = new Vector3(x, y, z) - устанавливает позицию созданного куба
+        // РЎРѕР·РґР°РµС‚ РЅРѕРІС‹Р№ РёРіСЂРѕРІРѕР№ РѕР±СЉРµРєС‚ (GameObject) РІ СЃС†РµРЅРµ СЃ РїСЂРёРјРёС‚РёРІРѕРј С‚РёРїР° "РљСѓР±"
+        // .transform - РїРѕР»СѓС‡Р°РµС‚ РґРѕСЃС‚СѓРї Рє РєРѕРјРїРѕРЅРµРЅС‚Сѓ Transform СЃРѕР·РґР°РЅРЅРѕРіРѕ РєСѓР±Р°
+        // .position = new Vector3(x, y, z) - СѓСЃС‚Р°РЅР°РІР»РёРІР°РµС‚ РїРѕР·РёС†РёСЋ СЃРѕР·РґР°РЅРЅРѕРіРѕ РєСѓР±Р°
         GameObject.CreatePrimitive(PrimitiveType.Cube).transform.position =new Vector3(0, 0, 0);
         GameObject.CreatePrimitive(PrimitiveType.Cube).transform.position = new Vector3(-0.5f, 1, 0);
         GameObject.CreatePrimitive(PrimitiveType.Cube).transform.position = new Vector3(0.5f, 1, 0);
